@@ -1,0 +1,20 @@
+/* Color Theme Swatches in Hex */
+.LUAR-1-hex { color: #031740; }
+.LUAR-2-hex { color: #030F26; }
+.LUAR-3-hex { color: #F2A341; }
+.LUAR-4-hex { color: #F29441; }
+.LUAR-5-hex { color: #F2F2F2; }
+
+/* Color Theme Swatches in RGBA */
+.LUAR-1-rgba { color: rgba(2, 23, 63, 1); }
+.LUAR-2-rgba { color: rgba(2, 14, 38, 1); }
+.LUAR-3-rgba { color: rgba(242, 163, 65, 1); }
+.LUAR-4-rgba { color: rgba(242, 147, 65, 1); }
+.LUAR-5-rgba { color: rgba(242, 242, 242, 1); }
+
+/* Color Theme Swatches in HSLA */
+.LUAR-1-hsla { color: hsla(220, 91, 13, 1); }
+.LUAR-2-hsla { color: hsla(219, 85, 8, 1); }
+.LUAR-3-hsla { color: hsla(33, 87, 60, 1); }
+.LUAR-4-hsla { color: hsla(28, 87, 60, 1); }
+.LUAR-5-hsla { color: hsla(0, 0, 94, 1); }
