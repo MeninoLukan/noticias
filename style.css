@@ -16,8 +16,8 @@
 }
 
 body {
+    /* padding: 1.8rem 1.5rem; */
     background-color: var(--white-smoke);
-    padding: 1.8rem 1.5rem;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -35,10 +35,15 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 0.2rem;
 
+    padding: 1.8rem 1.5rem;
     max-width: 1110px;
     margin-inline: auto;
+}
+
+header h1 {
+    text-transform: uppercase;
 }
 
 header button {
@@ -88,6 +93,45 @@ header .desktop {
 main {
     max-width: 1110px;
     margin-inline: auto;
+    padding: 0 1.5rem;
+}
+
+footer {
+    background-color: var(--black-midnight);
+    padding: 2rem 0;
+    margin-top: 0.4rem;
+    align-items: center;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1110px;
+    margin-inline: auto;
+    padding: 0 1.5rem;
+}
+
+footer nav {
+    display: flex;
+    gap: 1rem;
+    height: 2rem;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer .desktop {
+    display: none;
+}
+
+footer .mobile svg {
+    width: 2rem;
+    height: 2rem;
+}
+
+footer .mobile svg path {
+    fill: var(--grayish-blue);
 }
 
 .primeira-secao {
@@ -161,13 +205,12 @@ main {
 .terceira-secao > div {
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1rem;
     margin-bottom: 2rem;
 }
 
 .terceira-secao img {
     max-width: 6.25rem;
-
 }
 
 .terceira-secao strong {
@@ -192,6 +235,14 @@ main {
     font-size: 0.9175rem;
     line-height: 1.625rem;
     color: var(--midnight-blue);
+}
+
+.footer-text {
+    color: var(--grayish-blue);
+}
+
+.footer-text a {
+    color: var(--grayish-blue);
 }
 
 @media(min-width: 1110px) {
@@ -220,6 +271,14 @@ main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 1.75rem;
+    }
+    
+    footer .mobile {
+        display: none;
+    }
+
+    footer .desktop {
+        display: flex;
     }
 
     .primeira-secao {
