@@ -96,6 +96,10 @@ main {
     padding: 0 1.5rem;
 }
 
+article {
+    height: 100vh;
+}
+
 footer {
     background-color: var(--black-midnight);
     padding: 2rem 0;

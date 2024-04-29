@@ -189,11 +189,15 @@ footer .mobile svg path {
 }
 
 .segunda-secao h3 {
-    color: var(--white-smoke);
     font-size: 1.25rem;
     line-height: 1.5rem;
     font-weight: 800;
     margin-bottom: 0.5rem;
+}
+
+.segunda-secao a {
+    text-decoration: none;
+    color: var(--white-smoke);
 }
 
 .segunda-secao p {
