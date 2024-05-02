@@ -96,8 +96,32 @@ main {
     padding: 0 1.5rem;
 }
 
+h4 {
+    color: var(--midnight-blue);
+    font-weight: 400;
+    font-size: 0.975rem;
+    line-height: 1rem;
+}
+
 article {
     height: 100vh;
+}
+
+article h1 {
+    font-size: 2.375rem;
+    font-weight: 600;
+    color: var(--black-midnight);
+}
+
+article h3 {
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: var(--black-midnight);
+}
+
+article p {
+    margin-bottom: 1rem;
 }
 
 footer {
