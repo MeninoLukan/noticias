@@ -104,7 +104,10 @@ h4 {
 }
 
 article {
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    /* height: 100vh; */
 }
 
 article h1 {
@@ -116,8 +119,13 @@ article h1 {
 article h3 {
     font-weight: 300;
     font-size: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.375rem;
     color: var(--black-midnight);
+}
+
+article img {
+    width: 100%;
+    margin-bottom: 1.5rem;
 }
 
 article p {
